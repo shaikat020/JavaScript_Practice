@@ -1,1 +1,0 @@
-console.log("First number over 18 is ", f); 
