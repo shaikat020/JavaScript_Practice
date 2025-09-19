@@ -5,3 +5,5 @@ const fruit= ["Banana", "Mango"];
 console.log(fruit.length);
 let c= fruit.toString();
 console.log(c.length);
+
+//All JavaScript objects have a toString() method.
