@@ -32,3 +32,44 @@ console.log(man1);
 man1.firstName="Shaikat";
 man1.lastName="Tahsin";
 console.log(man1);
+
+//JavaScript Object fromEntries()
+
+const myobj = Object.fromEntries(Object.entries(person));//Object.fromEntries() requires an iterable of key–value pairs (like Map or an array of [key, value] tuples). But person (or man1) is just a plain object, and plain objects are not iterable.
+console.log(myobj);
+
+// Iterarble object
+const fruits = [
+["apples", 300],
+["pears", 900],
+["bananas", 500]
+];
+const myObj1 = Object.fromEntries(fruits);
+console.log(myObj1);
+
+//assign
+const person2 = { 
+  firstName: "Anne", 
+  lastName :"Smith" 
+
+}
+Object.assign(person, person2);
+console.log(person);
+
+//In JavaScript, Objects are King.
+// If you Understand Objects, you Understand JavaScript.
+// In JavaScript, almost "everything" is an object.
+// Objects are objects
+// Maths are objects
+// Functions are objects
+// Dates are objects
+// Arrays are objects
+// Maps are objects
+// Sets are objects
+// All JavaScript values, except primitives, are objects.
+
+
+//Primitive values are immutable (they are hardcoded and cannot be changed).
+//if x = 3.14, you can change the value of x, but you cannot change the value of 3.14.
+
+//but JavaScript Objects are Mutable. They are addressed by reference, not by value.
