@@ -72,4 +72,4 @@ console.log(person);
 //Primitive values are immutable (they are hardcoded and cannot be changed).
 //if x = 3.14, you can change the value of x, but you cannot change the value of 3.14.
 
-//but JavaScript Objects are Mutable. They are addressed by reference, not by value.
+//but, JavaScript Objects are Mutable. They are addressed by reference, not by value.
