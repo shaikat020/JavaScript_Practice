@@ -46,3 +46,4 @@ function myCalculator(num1, num2, callback) {
 myCalculator(5, 5, myDisplayer);// When pass a function as an argument, remember not to use parenthesis.
 
 console.log(myCalculator(5,5))
+
